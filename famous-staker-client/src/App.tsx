@@ -21,6 +21,7 @@ const App = () => {
   useEffect(() => {
     checkWalletStatus();
     getCurrentStaker();
+    //eslint-disable-next-line
   }, []);
 
   const checkWalletInstallStatus = () => {

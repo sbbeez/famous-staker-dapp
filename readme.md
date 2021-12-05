@@ -64,3 +64,12 @@ REACT_APP_CONTRACT_ADDRESS=<contract address from migrate>
 5. push your changes
 6. Open Vercel and open settings for the connected repo
 7. Choose `Environment variables` option and update the `contract address`
+
+
+### Testing in Rinkeby
+
+To test the dapp in rinkeby network. Please add some ether to your address in the network. 
+1. Go to [this](https://faucets.chain.link/rinkeby) website
+2. Enter your wallet address
+3. Initiate the transfer
+4. After it is successful verify your metamask wallet for ethers (having chosen rinkeby network)

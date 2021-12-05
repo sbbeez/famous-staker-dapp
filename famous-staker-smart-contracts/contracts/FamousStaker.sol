@@ -20,5 +20,7 @@ contract FamousStaker {
     function withdrawFamousStaker() public {
         require(msg.sender == currentStaker);
         payable(currentStaker).transfer(currentStake);
+        currentStaker = address(0);
+        currentStake = 0;
     }
 }

@@ -127,7 +127,7 @@ const App = () => {
           />
           <button onClick={makeMeFamous}>Make me Famous</button>
           {currentStaker.address &&
-            currentStaker.address.toLowerCase() ==
+            currentStaker.address.toLowerCase() ===
               selectedAccount?.toLowerCase() && (
               <button onClick={withdrawFromFamousStaker}>Withdraw</button>
             )}
